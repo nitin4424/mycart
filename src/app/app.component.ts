@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myCart';
   loadedFeature = 'recipe';
-  onNavigate(feaure: string){
-  	this.loadedFeature = feaure;
+  onNavigate(feature: string){
+  	this.loadedFeature = feature;
 
   }
 }
